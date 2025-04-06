@@ -1,0 +1,42 @@
+.nav-bar{
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.nav-bar-list{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 150px 0px 150px;
+    list-style: none;   
+}
+
+.nav-bar-button{
+    font-size: 19px;
+}
+.button-bottom-disk{
+    position: relative;
+    top: -13px;
+    background-color: orange;
+    height: 2px;
+    width: 50px;
+    transition: left 0.9s ease, width 0.9s ease
+
+}
+
+.image_area{
+    width: auto;
+    height: 300px;
+    background-color: aqua;
+    overflow-y: auto;
+}
+
+.img{
+    width: auto;
+    height: 300px;
+}

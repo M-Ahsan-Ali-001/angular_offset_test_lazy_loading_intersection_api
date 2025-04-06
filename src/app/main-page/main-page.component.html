@@ -1,0 +1,27 @@
+<nav class="nav-bar">
+    <ul class="nav-bar-list">
+        <li class="nav-bar-button home" (click)="move_disk($event)">
+            Home 
+        </li>
+        
+        <li class="nav-bar-button" (click)="move_disk($event)">
+            Portfolio
+        </li>
+        
+        <li class="nav-bar-button" (click)="move_disk($event)">
+            About
+        </li>
+    </ul>
+</nav>
+
+<div class="button-bottom-disk"> 
+</div>
+
+<div class="image_area" #observedElement>
+<div class="img" *ngFor="let img of images_uri_list" >
+    <img [src]="" [attr.data]='img' alt=" Loading ................"/>
+</div>
+
+
+
+</div>
